@@ -11,6 +11,13 @@
             font-weight: normal;
             font-style: normal;
         }
+        
+        @font-face {
+            font-family: 'Nunito';
+            src: url('static/Nunito.ttf');
+            font-weight: normal;
+            font-style: normal;
+        }
 
         body {
             margin: 0;
@@ -25,17 +32,17 @@
 </head>
 <body>
     <header class="header" id="header">
-        <div class="logo"><img src="media/white-short-logo.min.svg" alt="logo">TradingView</div>
+        <a class="logo" href="/"><img src="media/white-short-logo.min.svg" alt="logo">TradingView</a>
         <nav class="nav-links">
-            <a href="#" class="nav-link">Home</a>
-            <a href="#" class="nav-link">Charts</a>
-            <a href="#" class="nav-link">Alerts</a>
-            <a href="#" class="nav-link">Screeners</a>
-            <a href="#" class="nav-link">Pricing</a>
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#charts" class="nav-link">Charts</a>
+            <a href="#alerts" class="nav-link">Alerts</a>
+            <a href="#screeners" class="nav-link">Screeners</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
         </nav>
         <a href="#" class="download-button">Download</a>
     </header>
-    <div class="container">
+    <div class="container" id="home">
         <div class="first-container-gradient"></div>
         <div class="left-section">
             <h1>Get Full <span class="span-gradient">Access</span> to<br>
@@ -70,9 +77,9 @@
         </div>
     </div>
     <div class="background-c2">
-        <img src="media/bg_2.png" alt="bg2">
+        <img src="media/bg_3.png" alt="bg2">
     </div>
-    <div class="container-3">
+    <div class="container-3" id="pricing">
         <div class="container-3-image">
             <img src="media/phone-right.svg" alt="img3">
             <div class="gradient-transparent"></div>
@@ -83,6 +90,8 @@
             <h3>$99.95 <span>/ month</span></h3>
             <button class="download-button">Download for Windows</button>
             <ul>
+                <li><img src="media/tick.png" alt="arrow">10 charts per tab                             <div class="progress"><div class="line" style="width: 73%;"></div></div></li>
+                <li><img src="media/tick.png" alt="arrow">30 indicators per chart                       <div class="progress"><div class="line" style="width: 70%;"></div></div></li>
                 <li><img src="media/tick.png" alt="arrow">25K historical bars                           <div class="progress"><div class="line" style="width: 75%;"></div></div></li>
                 <li><img src="media/tick.png" alt="arrow">80 parallel chart connections                 <div class="progress"><div class="line" style="width: 45%;"></div></div></li>
                 <li><img src="media/tick.png" alt="arrow">600 price alerts                              <div class="progress"><div class="line" style="width: 73%;"></div></div></li>
@@ -91,7 +100,7 @@
             </ul>
         </div>        
     </div>
-    <div class="container-4">
+    <div class="container-4" id="charts">
         <h1 class="title-container-2 title-container">CHART THAT <span class="span-gradient">MOVE</span> MARKETS</h1>
         <H3 class="subtitle-container-2 subtitle-container">Whether you’d like to simply look up the latest stock price, or analyze price patterns with lengthy scripts<br> — we got you covered.</H3>
         <div class="container-4-scroll-block">
@@ -155,7 +164,7 @@
             <img src="media/img_con_3.png" alt="img3" class="img-conatiner-5">
             <div class="first-container-gradient"></div>
         </div> -->
-        <h1 class="title-container-5 title-container">Synchronized workspace crosshairs</h1>
+        <h1 class="title-container-5 title-container" id="alerts">Synchronized workspace crosshairs</h1>
         <p class="subtitle-container">Ideal for thorough market study, your crosshairs will move in tandem across all your displays. Plus, <br>you can switch the ticker on every tab with just a single click.</p>
         <div class="center-img-container-5">
             <!-- <img src="media/img_con_3.png" alt="img3" class="img-conatiner-5"> -->
@@ -164,7 +173,7 @@
         </div>
     </div>
     <div class="container-6">
-        <h1 class="title-container-6 title-container">HEATMAP + SCREEN EVERYTHING</h1>
+        <h1 class="title-container-6 title-container" id="screeners">HEATMAP + SCREEN EVERYTHING</h1>
         <H3 class="subtitle-container-6 subtitle-container">Compare Symbols Via Different Parameters And Tools, All In Real-Time, To Find Your <br>Best Trading Opportunities.</H3>
         <div class="section section-1">
             <div class="item">
@@ -247,7 +256,7 @@
         <p class="subtitle-container">Harness the power of the world’s most popular financial analysis platform.</p>
         <div class="gradient-bg"></div>
     </div>
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="gradient-footer"></div>
         <div class="footer-bg">
             <div class="gradient-footer gradient-footer2"></div>
@@ -286,7 +295,7 @@
             <input type="email" placeholder="Enter your email">
             <button>Subscribe</button>
         </div> -->
-    </footer>
+    </footer> -->
     <script src="static/main.js"></script>
 </body>
 </html>
