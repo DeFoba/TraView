@@ -14,9 +14,10 @@
 
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: rgb(5, 5, 5);
-            font-family: 'MainFont', sans-serif;
+            /* font-family: Arial, sans-serif; */
+            background-color: rgb(0, 1, 8);
+            /* font-family: 'MainFont', sans-serif; */
+            font-family: 'MainFont';
             overflow-x: hidden;
         }
     </style>
@@ -24,7 +25,7 @@
 </head>
 <body>
     <header class="header" id="header">
-        <div class="logo">TradingView</div>
+        <div class="logo"><img src="media/white-short-logo.min.svg" alt="logo">TradingView</div>
         <nav class="nav-links">
             <a href="#" class="nav-link">Home</a>
             <a href="#" class="nav-link">Charts</a>
@@ -37,8 +38,8 @@
     <div class="container">
         <div class="first-container-gradient"></div>
         <div class="left-section">
-            <h1>Get Full Access to<br>
-                TradingView for FREE</h1>
+            <h1>Get Full <span class="span-gradient">Access</span> to<br>
+                TradingView for <span class="span-gradient">FREE</span></h1>
             <p>Only in TradingView Desktop</p>
             <button class="download-button">Download for Windows</button>
         </div>
@@ -58,9 +59,10 @@
                 <li>✔ Volume profile</li>
             </ul>
         </div>
+        <img src="media/first_background_2.png" alt="bg">
     </div>
     <div class="container-2">
-        <h1 class="title-container-2">TRADINGVIEW DESKTOP</h1>
+        <h1 class="title-container-2">TRADINGVIEW <span class="span-gradient">DESKTOP</span></h1>
         <H3 class="subtitle-container-2">Experience Extra Power, Extra Speed And Extra Flexibility,<br>All With The Same UX You Know And Love.</H3>
         <div class="center-img-container-2">
             <!-- <img src="media/app-view.png" alt="img1" class="img-conatiner-2"> -->
@@ -81,8 +83,6 @@
             <h3>$99.95 <span>/ month</span></h3>
             <button class="download-button">Download for Windows</button>
             <ul>
-                <li><img src="media/tick.png" alt="arrow">10 charts per tab                             <div class="progress"><div class="line" style="width: 70%;"></div></div></li>
-                <li><img src="media/tick.png" alt="arrow">30 indicators per chart                       <div class="progress"><div class="line" style="width: 65%;"></div></div></li>
                 <li><img src="media/tick.png" alt="arrow">25K historical bars                           <div class="progress"><div class="line" style="width: 75%;"></div></div></li>
                 <li><img src="media/tick.png" alt="arrow">80 parallel chart connections                 <div class="progress"><div class="line" style="width: 45%;"></div></div></li>
                 <li><img src="media/tick.png" alt="arrow">600 price alerts                              <div class="progress"><div class="line" style="width: 73%;"></div></div></li>
@@ -92,7 +92,7 @@
         </div>        
     </div>
     <div class="container-4">
-        <h1 class="title-container-2 title-container">CHART THAT MOVE MARKETS</h1>
+        <h1 class="title-container-2 title-container">CHART THAT <span class="span-gradient">MOVE</span> MARKETS</h1>
         <H3 class="subtitle-container-2 subtitle-container">Whether you’d like to simply look up the latest stock price, or analyze price patterns with lengthy scripts<br> — we got you covered.</H3>
         <div class="container-4-scroll-block">
             <ul>
@@ -249,74 +249,25 @@
     </div>
     <footer class="footer">
         <div class="gradient-footer"></div>
-        <div class="footer-bg"></div>
+        <div class="footer-bg">
+            <div class="gradient-footer gradient-footer2"></div>
+        </div>
         <div class="footer-column">
-            <h2>TradingView</h2>
+            <h2><img src="media/white-short-logo.min.svg" alt="logo">TradingView</h2>
             <p>Look first / Then leap.</p>
             <p class="sub">Select market data provided by ICE Data services. <br><br>Select reference data provided by FactSet. Copyright © 2025 FactSet Research Systems Inc.<br><br>© 2025 TradingView, Inc.</p>
         </div>
         <div class="footer-column">
-            <h3>MORE THAN A PRODUCT</h3>
+            <h3>NAVIGATION</h3>
             <ul>
-                <li><a href="#">Supercharts</a></li>
-            </ul>
-
-            <h3>SCREENERS</h3>
-            <ul>
-                <li><a href="#">Stocks</a></li>
-                <li><a href="#">ETFs</a></li>
-                <li><a href="#">Bonds</a></li>
-                <li><a href="#">Crypto coins</a></li>
-                <li><a href="#">Crypto pairs</a></li>
-                <li><a href="#">CEX pairs</a></li>
-                <li><a href="#">DEX pairs</a></li>
-                <li><a href="#">Pine</a></li>
-            </ul>
-
-            <h3>HEATMAPS</h3>
-            <ul>
-                <li><a href="#">Stocks</a></li>
-                <li><a href="#">ETFs</a></li>
-                <li><a href="#">Crypto</a></li>
-            </ul>
-
-            <h3>CALENDARS</h3>
-            <ul>
-                <li><a href="#">Economic</a></li>
-                <li><a href="#">Earnings</a></li>
-                <li><a href="#">Dividends</a></li>
-            </ul>
-            
-            <h3>MORE PRODUCTS</h3>
-            <ul>
-                <li><a href="#">Yield curves</a></li>
-                <li><a href="#">Options</a></li>
-                <li><a href="#">News Flow</a></li>
-                <li><a href="#">Pine Script®</a></li>
-                <li><a href="#">Sparks</a></li>
-            </ul>
-            
-            <h3>APPS</h3>
-            <ul>
-                <li><a href="#">Mobile</a></li>
-                <li><a href="#">Desktop</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Charts</a></li>
+                <li><a href="#">Alerts</a></li>
+                <li><a href="#">Screeners</a></li>
+                <li><a href="#">Pricing</a></li>
             </ul>
         </div>
         <div class="footer-column">
-            <h3>TOOLS & SUBSCRIPTIONS</h3>
-            <ul>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Market data</a></li>
-            </ul>
-
-            <h3>SPECIAL OFFERS</h3>
-            <ul>
-                <li><a href="#">CME Group futures</a></li>
-                <li><a href="#">Eurex futures</a></li>
-                <li><a href="#">US stocks bundle</a></li>
-            </ul>
-
             <h3>ABOUT COMPANY</h3>
             <ul>
                 <li><a href="#">Who we are</a></li>
@@ -326,66 +277,9 @@
                 <li><a href="#">Careers</a></li>
                 <li><a href="#">Media kit</a></li>
             </ul>
-
-            <h3>MERCH</h3>
-            <ul>
-                <li><a href="#">TradingView store</a></li>
-                <li><a href="#">Tarot cards for traders</a></li>
-            </ul>
-
-            <h3>POLICIES & SECURITY</h3>
-            <ul>
-                <li><a href="#">Terms of Use</a></li>
-                <li><a href="#">Disclaimer</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Cookies Policy</a></li>
-                <li><a href="#">Accessibility Statement</a></li>
-                <li><a href="#">Security vulnerability</a></li>
-                <li><a href="#">Status page</a></li>
-            </ul>
         </div>
-        <div class="footer-column">
-            <h3>Community</h3>
-            <ul>
-                <li><a href="#">Social network</a></li>
-                <li><a href="#">Wall of Love</a></li>
-                <li><a href="#">Refer a friend</a></li>
-                <li><a href="#">House Rules</a></li>
-                <li><a href="#">Moderators</a></li>
-            </ul>
-
-            <h3>Ideas</h3>
-            <ul>
-                <li><a href="#">Trading</a></li>
-                <li><a href="#">Education</a></li>
-                <li><a href="#">Editors’ picks</a></li>
-            </ul>
-
-            <h3>Pine Script</h3>
-            <ul>
-                <li><a href="#">Indicators & strategies</a></li>
-                <li><a href="#">Wizards</a></li>
-                <li><a href="#">Freelancers</a></li>
-            </ul>
-        </div>
-        <div class="footer-column">
-            <h3>BUSINESS SOLUTIONS</h3>
-            <ul>
-                <li><a href="#">Widgets</a></li>
-                <li><a href="#">Charting libraries</a></li>
-                <li><a href="#">Lightweight Charts™</a></li>
-                <li><a href="#">Advanced Charts</a></li>
-                <li><a href="#">Trading Platform</a></li>
-            </ul>
-
-            <h3>GROWTH OPPORTUNITIES</h3>
-            <ul>
-                <li><a href="#">Advertising</a></li>
-                <li><a href="#">Brokerage integration</a></li>
-                <li><a href="#">Partner program</a></li>
-                <li><a href="#">Education program</a></li>
-            </ul>
-        </div>
+        
+        
         <!-- <div class="footer-column">
             <h3>Subscribe</h3>
             <p>Stay updated with our latest news and offers</p>

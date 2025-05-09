@@ -35,6 +35,6 @@ if (!isWindows) {
     // Меняем текст в элементах с классом .message
     const messages = document.getElementsByClassName('download-button');
     for (let i = 0; i < messages.length; i++) {
-        messages[i].innerText = 'Only windows';
+        messages[i].innerText = 'Unsupported system';
     }
 }
